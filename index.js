@@ -84,10 +84,10 @@ const createClient = (endpoint, opt = {}) => {
 		})
 	}
 
-	const stations = async (id, opt = {}) => {
+	const stations = async (query, opt = {}) => {
 		return await request('/stations', {
 			...opt,
-			id,
+			query,
 		})
 	}
 
