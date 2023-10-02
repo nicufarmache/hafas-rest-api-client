@@ -29,7 +29,7 @@ const vbbClient = createClient('https://v6.vbb.transport.rest', {
 const res = await vbbClient.journeys('900100705', '900096197', {results: 1})
 ```
 
-`hafas-rest-api-client` is a client for [`hafas-rest-api@5`](https://www.npmjs.com/package/hafas-rest-api/v/5.1.3) APIs. Check their individual API docs for all supported parameters.
+`hafas-rest-api-client` is a client for [`hafas-rest-api@6`](https://www.npmjs.com/package/hafas-rest-api/v/6.0.0-alpha.1) APIs. Check their individual API docs for all supported parameters.
 
 The response objects have special [`Symbol`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol) fields for meta information:
 
